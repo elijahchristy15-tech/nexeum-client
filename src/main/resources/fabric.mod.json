@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "nexeum",
+	"version": "${version}",
+	"name": "Nexeum Client",
+	"description": "Starforged PvP client for Fabric 1.21 with a Right Shift config screen, cosmetic toggles, and client-side compatibility.",
+	"authors": [
+		"elija"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.nexeum.NexeumMod"
+		],
+		"client": [
+			"com.nexeum.client.NexeumClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
